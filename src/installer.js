@@ -16,7 +16,7 @@ async function installTemplate(template) {
 
     let cmd = 'npm';
     let args = ['install', template, '--parseable'];
-    core.info(`Installing JSDoc template: ${template}`);
+    core.info(`Installing : ${template}`);
     core.debug(`Command: ${cmd} ${args}`);
 
     let installOutput = '';

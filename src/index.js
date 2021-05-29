@@ -44,6 +44,8 @@ async function run() {
     }
 
     if (template) {
+      await installer.installTemplate('react@^16.0.0');
+      await installer.installTemplate('react-dom@^16.0.0');
       await installer.installTemplate('better-docs');
       templateName = await installer.installTemplate(template);
     }
