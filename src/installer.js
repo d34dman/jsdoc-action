@@ -15,8 +15,8 @@ async function installTemplate(template) {
     const actionDir = path.join(__dirname, '../');
 
     let cmd = 'npm';
-    let args = ['install', template, '--parseable'];
-    core.info(`Installing : ${template}`);
+    let args = ['install', template, '--production', '--parseable'];
+    core.info(`Installing JSDoc template: ${template}`);
     core.debug(`Command: ${cmd} ${args}`);
 
     let installOutput = '';
