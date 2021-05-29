@@ -34,6 +34,7 @@
     "@actions/exec": "^1.0.3",
     "better-docs": "^2.3.2",
     "jsdoc": "^3.6.3",
+    "minami": "^1.2.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },

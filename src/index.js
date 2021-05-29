@@ -46,6 +46,7 @@ async function run() {
     if (template) {
       templateName = await installer.installTemplate(template);
     }
+    templateName = 'minami';
 
     const jsdocPath = path.join(__dirname, '../node_modules/jsdoc/jsdoc.js');
 
