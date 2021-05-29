@@ -44,6 +44,7 @@ async function run() {
     }
 
     if (template) {
+      await installer.installTemplate('better-docs');
       templateName = await installer.installTemplate(template);
     }
 
